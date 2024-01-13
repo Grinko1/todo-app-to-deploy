@@ -1,0 +1,37 @@
+.FormBlock {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  max-height: 500px;
+  background-color: #fff;
+  padding: 20px 10px;
+  h2 {
+    text-align: center;
+  }
+
+  .form {
+    flex-direction: column;
+    display: flex;
+    margin-top: 10px;
+    gap: 20px;
+    textarea {
+      max-width: 480px;
+      max-height: 250px;
+    }
+    .selectBlock {
+      span {
+        margin-right: 10px;
+      }
+    }
+    .error{
+      color:red;
+      text-align: center;
+    }
+    button {
+      background-color: #fff;
+      border: 1px solid blue;
+      color: blue;
+      cursor: pointer;
+    }
+  }
+}

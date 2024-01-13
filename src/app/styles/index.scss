@@ -1,0 +1,29 @@
+@import 'reset';
+@import 'variables/global';
+
+body {
+  font: var(--font-m);
+  color: var(--primary-color);
+}
+
+.app {
+  font: var(--font-m);
+  background: var(--bg-color);
+  color: var(--primary-color);
+  height: 100vh;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.content-page {
+  display: flex;
+  min-height: 50vh;
+}
+
+.page-wrapper {
+  flex-grow: 1;
+  padding: 20px;
+}
